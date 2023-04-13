@@ -1,0 +1,480 @@
+/* Google fonts Link Connect */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+/* Fixed Code Start */
+
+:root {
+
+    --font-semi: 600;
+
+    /*===== Colores =====*/
+
+    --first-color-deep: #24263B;
+    --first-color-black: #1F2235;
+    --second-color: #FF4A57;
+    --white-color: #ffff;
+
+    /*===== Fuente y tipografia =====*/
+
+    --body-font: 'Poppins', sans-serif;
+    --title-up-font: 1.125rem;
+    --title-font-size: 4rem;
+    --paragraph-title: 1.25rem;
+    --paragraph-font: 1rem;
+  
+
+    /* ===== Text Transform ===== */
+    --uppercase:uppercase;
+    --lowercase:lowercase;
+    --capitalize:capitalize;
+
+
+    /* ===== Font Weight ===== */
+    --font-bold: 700;
+    --font-semi-bold: 600;
+    --font-semi: 400;
+    --font-normal: 300;
+
+    /*===== Margenes =====*/
+
+    --mb-1: 1rem;
+    --mb-2: 2rem;
+    --mb-25: 2.5rem;
+    --mb-3: 3rem;
+
+    /*===== z index =====*/
+
+    --z-back: -10;
+    --z-fixed: 100;
+
+  }
+  
+  /*===== BASE =====*/
+  *, ::before, ::after {
+        box-sizing: border-box;
+  }
+  
+  html {
+        scroll-behavior: smooth;
+  }
+  
+  body {
+        font-family: var(--body-font);
+        color: var(--white-color);
+  }
+  
+  h1, h2, p {
+        margin: 0;
+  }
+  
+  ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+  }
+  
+  a {
+        text-decoration: none;
+  }
+  
+  img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+  }
+
+
+  /* Fixed Code End */
+
+/* Reusable Class Code Start */
+/* ============ NAVBAR CODE START =========== */
+.navbar-light .navbar-nav .nav-link {
+        font-size: 18px;
+        position: relative;
+        transition: all 0.4s ease-in-out 0s;
+        padding: 0px;
+        margin-left: 16px;
+        color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+        color: var(--second-color);
+}
+.navbar-light .navbar-nav .nav-item a::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        width: 0;
+        height: 2px;
+        background-color: var(--second-color);
+        transition: all 0.4s ease-in-out ;
+}
+.navbar-light .navbar-nav .nav-item:hover a::before{
+        width: 100%;
+}
+/* ============ NAVBAR CODE END =========== */
+/* ============ BTN FILL & OUTLINE CODE START =========== */
+.Fahad__btn__Fill{
+
+        padding: 0;   
+        margin: 0;
+        color: #fff;
+        background-color:var(--second-color);
+        border: none;
+        border: 1px solid var(--second-color);
+        padding: 10px 30px;
+        margin-right: 15px;
+        transition: .4s all ease-in-out;
+        /* width: 130px;
+        height: 50px; */
+  
+}
+.Fahad__btn__Fill:hover{
+        color: #fff;
+        background-color: transparent;
+        border: 1px solid var(--second-color);
+}
+.Fahad__btn__Outline{
+        padding: 0;
+        margin: 0;
+        color: #fff;
+        border: none;
+        border: 1px solid var(--second-color);
+        padding: 10px 30px;
+        /* width: 130px;
+        height: 50px; */
+        background: transparent;
+        transition: .4s all ease-in-out;
+}
+.Fahad__btn__Outline:hover{
+
+        color: #fff;
+        background-color: var(--second-color);
+        border: 1px solid var(--second-color);
+        
+}
+/* ============ BTN FILL & OUTLINE CODE END =========== */
+/* ============ SECTION SPACE TITLE START =========== */
+.Fahad__Section__Space{
+        padding: 60px 0px;
+}
+.Fahad__Underline{
+        display: inline-block;
+        width: 10%;
+        height: 3px;
+        background-color: var(--second-color);
+        margin: auto;
+        margin-bottom: 40px;
+}
+/* ============ SECTION SPACE TITLE END =========== */
+/* ============ SECTION TITLE START =========== */
+.Fahad__Section__bg__black{
+        background-color: var(--first-color-black);
+}
+.Fahad__Section__bg__deep{
+        background-color: var(--first-color-deep);
+}
+.Fahad__Section__Title{
+        color: var(--white-color);
+        text-align: center;
+        font-size: var(--title-font-size);
+        margin-bottom: 30px;
+        font-weight:var(--font-bold) ;
+}
+.Fahad__Paragraph{
+        color:var(--white-color);
+        font-family:var(--body-font);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.3px;
+}
+.Fahad__Title_Up{
+        font-size: var(--title-up-font);
+        color: var(--second-color);
+        letter-spacing: 0.4px;
+        font-weight: var(--font-semi);
+        text-transform: var(--uppercase);
+    
+
+}
+/* ============ SECTION TITLE END =========== */
+
+/* Reusable Class Code End */
+
+/* =========== Header Part Start ============== */
+header{
+        background-color: var(--first-color-deep);
+        /* position: fixed;
+        top: 0px;
+        right: 0;
+        left: 0;
+        z-index: 1030; */
+}
+.fahad__logo{
+        width:220px;
+}
+/* =========== Banner Part Code Start ================ */
+.Banner__Section{
+        background-image: url(../images/Banner.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    
+}
+.height{
+        min-height: 85vh;
+        /* padding-top: 100px; */
+}
+
+.Banner__Section .Social__icon ul{
+        list-style: none;
+        display: flex;
+}
+.Banner__Section .Social__icon ul li{
+        margin-right: 25px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        border: 3px solid #FF4A57;
+        border-radius: 50%;
+        transition: .3s all ease-in-out;
+
+}
+.Banner__Section .Social__icon ul li:hover{
+        background-color: var(--second-color);
+
+}
+.Banner__Section .Social__icon ul li a{
+        color: var(--white-color);
+}
+.Banner__Section .Social__icon ul li a i{
+        font-size: 25px;
+}
+.Banner__Section h1{
+        font-size: 62px;
+        color: var(--white-color);
+        margin: 20px 0px;
+
+}
+.Banner__Section h3{
+        color: var(--white-color);
+        font-size: 26px;
+        font-weight: var(--font-normal);
+        line-height: 40px;
+        margin-bottom: 50px;
+}
+.banner__img {
+        width: 45%;
+        position: absolute;
+        right: 0%;
+        bottom: 0%;
+    }
+.Banner__Btn{
+
+    }
+/* =========== Banner Part Code End ================ */
+/* =========== Header Part End ============== */
+
+
+/* ----============== SERVICES PART CODE START ===============---- */
+.Services__Box{
+        background-color: var(--first-color-deep);
+        color: var(--white-color);
+        width: 100%;
+        height: 350px;
+        padding: 40px 20px 20px 20px;
+        border-radius: 5px;
+        transition: .4s all ease-in-out;
+        margin-bottom: 30px;
+}
+.Services__Box:hover{
+        background:#1f2235;
+        cursor: pointer;
+}
+.Services__Box:hover .Box__icon i{
+        color: var(--white-color);
+        transition: 0.5s;
+        transform: rotate(360deg);
+}
+.Services__Box .Box__icon i{
+        font-size: 35px;
+        color: var(--second-color);
+}
+.Services__Box h3{
+        font-size: 20px;
+        font-weight:var(--font-semi-bold);
+        letter-spacing: 1px;
+        padding: 20px 0px;
+}
+.Services__Box p{
+        font-family: var(--body-font);
+        line-height: 30px;
+}
+/* ----============== SERVICES PART CODE END ===============---- */
+/* ----============== ABOUT PART CODE START ===============---- */
+.About__Section P{
+        color: var(--white-color);
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 30px;   
+}
+.Right__Content{
+        color: var(--white-color);
+        margin-top: 30px;
+}
+.Right__Content h3{
+        font-size: 20px;
+        font-weight: var(--font-semi-bold);
+        margin-bottom: 10px;
+        
+}
+.Right__Content p{
+        text-align: left;
+        line-height: 30px;
+}
+
+.Right__Content .Name h2 , .Phone h2 , .Email h2 , .Location h2{
+        font-size: 20px;
+        font-weight: var(--font-semi);
+        color: var(--second-color);
+}
+.Right__Content .Name h4, .Phone h4, .Email h4, .Location h4{
+        font-size: 16px;
+        font-weight: var(--font-semi);
+}
+
+
+/* ----============== ABOUT PART CODE END ===============---- */
+
+/* ----============== SKILL PART CODE START ===============---- */
+.Skill__Section h1{
+        font-size: 60px;
+        margin: 20px 0px;
+}
+.Skill__Section .skill__Pragraph{
+        margin-bottom: 35px;
+}
+.progress-bar{
+        background-color: var(--second-color);
+}
+.Right__Content h3{
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 14px;
+}
+/* ----============== SKILL PART CODE END ===============---- */
+/* ----============== PORTFOLIO PART CODE END ===============---- */
+.Paragraph{
+        text-align: center;
+        margin-bottom: 20px;
+}
+
+/* ----============== PORTFOLIO PART CODE END ===============---- */
+/* ----============== LOCATION PART CODE START ===============---- */
+.Locate__Me{
+        background-color: var(--first-color-black);
+        padding: 20px;
+        display: flex;
+        cursor: pointer;
+}
+.Locate__Me .icon{
+        font-size: 25px;
+        margin-right: 20px;
+        color: var(--second-color);
+}
+.Locate__Me .Content h3{
+        font-size: 18px;
+}
+.Locate__Me .Content p{
+        font-size: 14px;
+        letter-spacing: 1px;
+}
+.Contact__box:hover .icon i {
+        color: var(--white-color);
+        transition: 0.5s;
+        transform: rotate(360deg);
+}
+/* ----============== LOCATION PART CODE END ===============---- */
+/* ----============== FOOTER PART CODE START ===============---- */
+
+footer .logo{
+        text-align: center;
+}
+footer .logo img{
+        width: 44%;
+        margin: auto;
+        cursor: pointer;
+}
+footer .logo p {
+        text-align: center;
+        margin: 25px 0px;
+}
+footer .Social__icon {
+        width: 84%;
+        margin: auto;
+}
+footer .Social__icon ul{
+        list-style: none;
+        display: flex;
+}
+footer .Social__icon ul li{
+        margin-right: 25px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        border: 3px solid #FF4A57;
+        border-radius: 50%;
+        transition: .3s all ease-in-out;
+    
+}
+footer .Social__icon ul li:hover{
+        background-color: var(--second-color);
+    
+}
+footer .Social__icon ul li a{
+        color: var(--white-color);
+}
+footer .Social__icon ul li a i{
+        font-size: 25px;
+}
+.footer_end{
+        padding: 30px 0px;
+        text-align: center;
+    
+}
+/* ----============== FOOTER PART CODE END ===============---- */
+/* ----============== HEADER STICKY CODE START ===============---- */
+.fixed-top{
+        background: #24263bbf;
+}
+/* ----============== HEADER STICKY CODE END ===============---- */
+/* ----============== SCROLL BOTTOM TO TOP CODE START ===============---- */
+.bck{
+        background-color: var(--second-color);
+        color: var(--white-color);
+}
+.bck:hover{
+        background-color: var(--white-color);
+        color: var(--second-color);
+        border-radius: 50%;
+}
+.back__To__Top a:hover{
+        color: var(--second-color);
+        
+}
+/* ----============== SCROLL BOTTOM TO TOP CODE END ===============---- */
+
+

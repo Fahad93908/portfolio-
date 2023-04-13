@@ -1,0 +1,449 @@
+
+@media(max-width:575px) and (min-width:343px){
+
+}
+@media(max-width:342px) and (min-width:320px){
+    .fahad__logo {
+        width: 160px;
+    }
+    .Custom_icon{
+        color: var(--white-color);
+        font-size: 25px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        color: #FF4A57;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-top: 20px;
+        text-align: center;
+        display: inline-block;
+    }
+    .Banner__Section .Social__icon ul {
+        flex-direction: row-reverse;
+    }
+    .Banner__Section .Social__icon ul li {
+        margin-top: 25px;
+        margin-right: 25px;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+        border: 2px solid #FF4A57;
+        border-radius: 50%;
+        transition: .3s all ease-in-out;
+    }
+    .Banner__Section h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+    .Banner__Section h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .Fahad__btn__Fill {
+        padding: 10px 25px;
+    }
+    .banner__img {
+        display: none;
+    }
+    .Banner__Btn {
+        text-align: center;
+    }
+    .Fahad__Section__Title {
+        font-size: 30px;
+    }
+    .Skill__Section h1 {
+        font-size: 50px;
+    }
+    .Locate__Me .Content p {
+        font-size: 12px;
+    }
+    .Portfolio_Btn{
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    footer .Social__icon ul{
+        justify-content: center;
+    }
+    footer .Social__icon ul li {
+        margin-right: 15px;
+        width: 35px;
+        height: 35px;
+        line-height: 31px;
+        text-align: center;
+        border: 3px solid #FF4A57;
+        border-radius: 50%;
+        transition: .3s all ease-in-out;
+    }
+    footer .Social__icon ul li a i {
+        font-size: 18px;
+    }
+   
+}
+@media(max-width:375px) and (min-width:343px){
+    .fahad__logo {
+        width: 160px;
+    }
+    .Custom_icon{
+        color: var(--white-color);
+        font-size: 25px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        color: #FF4A57;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-top: 20px;
+        text-align: center;
+        display: inline-block;
+    }
+    .Banner__Section .Social__icon ul {
+        flex-direction: row-reverse;
+    }
+    .Banner__Section .Social__icon ul li {
+        margin-top: 25px;
+        margin-right: 25px;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+        border: 2px solid #FF4A57;
+        border-radius: 50%;
+        transition: .3s all ease-in-out;
+    }
+    .Banner__Section h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+    .Banner__Section h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .Fahad__btn__Fill {
+        padding: 10px 25px;
+    }
+    .banner__img {
+        display: none;
+    }
+    .Banner__Btn {
+        text-align: center;
+    }
+    .Fahad__Section__Title {
+        font-size: 30px;
+    }
+    .Skill__Section h1 {
+        font-size: 50px;
+    }
+    .Locate__Me .Content p {
+        font-size: 12px;
+    }
+    .Portfolio_Btn{
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    footer .Social__icon ul{
+        justify-content: center;
+    }
+    footer .Social__icon ul li {
+        margin-right: 15px;
+        width: 35px;
+        height: 35px;
+        line-height: 31px;
+        text-align: center;
+        border: 3px solid #FF4A57;
+        border-radius: 50%;
+        transition: .3s all ease-in-out;
+    }
+    footer .Social__icon ul li a i {
+        font-size: 18px;
+    }
+}
+@media(max-width:425px) and (min-width:376px){
+    .fahad__logo {
+        width: 180px;
+    }
+    .Custom_icon{
+        color: var(--white-color);
+        font-size: 25px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        color: #FF4A57;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-top: 20px;
+        text-align: center;
+        display: inline-block;
+    }
+    .Banner__Section .Social__icon ul {
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+    }
+    .Banner__Section .Social__icon ul li {
+        margin-top: 25px;
+        margin-right: 25px;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+        border: 2px solid #FF4A57;
+        border-radius: 50%;
+        transition: .3s all ease-in-out;
+    }
+    .Banner__Section h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+    .Banner__Section h3 {
+        font-size: 17px;
+        text-align: center;
+    }
+    .Fahad__btn__Fill {
+        padding: 10px 25px;
+    }
+    .banner__img {
+        display: none;
+    }
+    .Banner__Btn {
+        text-align: center;
+    }
+    .Fahad__Section__Title {
+        font-size: 35px;
+    }
+    .Skill__Section h1 {
+        font-size: 35px;
+    }
+    .Locate__Me .Content p {
+        font-size: 12px;
+    }
+    .Portfolio_Btn{
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    footer .Social__icon ul{
+        justify-content: center;
+    }
+    footer .Social__icon ul li {
+        margin-right: 15px;
+        width: 35px;
+        height: 35px;
+        line-height: 31px;
+        text-align: center;
+        border: 3px solid #FF4A57;
+        border-radius: 50%;
+        transition: .3s all ease-in-out;
+    }
+    footer .Social__icon ul li a i {
+        font-size: 18px;
+    }
+}
+@media(max-width:319px) and (min-width:0px){
+   
+}
+
+@media(max-width:575px) and (min-width:426px){
+    .fahad__logo {
+        width: 180px;
+    }
+    .Custom_icon{
+        color: var(--white-color);
+        font-size: 25px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        color: #FF4A57;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-top: 20px;
+        text-align: center;
+        display: inline-block;
+    }
+    .Banner__Section .Social__icon ul {
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+    }
+    .Banner__Section .Social__icon ul li {
+        margin-top: 25px;
+        margin-right: 25px;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+        border: 2px solid #FF4A57;
+        border-radius: 50%;
+        transition: .3s all ease-in-out;
+    }
+    .Banner__Section h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+    .Banner__Section h3 {
+        font-size: 17px;
+        text-align: center;
+    }
+    .Fahad__btn__Fill {
+        padding: 10px 25px;
+    }
+    .banner__img {
+        display: none;
+    }
+    .Banner__Btn {
+        text-align: center;
+    }
+    .Fahad__Section__Title {
+        font-size: 35px;
+    }
+    .Skill__Section h1 {
+        font-size: 35px;
+    }
+    .Locate__Me .Content p {
+        font-size: 12px;
+    }
+    .Portfolio_Btn{
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    footer .Social__icon ul{
+        justify-content: center;
+    }
+    footer .Social__icon ul li {
+        margin-right: 15px;
+        width: 35px;
+        height: 35px;
+        line-height: 31px;
+        text-align: center;
+        border: 3px solid #FF4A57;
+        border-radius: 50%;
+        transition: .3s all ease-in-out;
+    }
+    footer .Social__icon ul li a i {
+        font-size: 18px;
+    }
+}
+@media(max-width:767px) and (min-width:576px){
+    .fahad__logo {
+        width: 180px;
+    }
+    .Custom_icon{
+        color: var(--white-color);
+        font-size: 25px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        color: #FF4A57;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-top: 20px;
+        text-align: center;
+        display: inline-block;
+    }
+    .banner__img{
+        display: none;
+    }
+    .Fahad__Section__Title {
+        font-size: 40px;
+    }
+    .Skill__Section h1 {
+        font-size: 46px;
+    }
+    
+
+}
+
+@media(max-width:991px) and (min-width:768px){
+    .fahad__logo {
+        width: 245px;
+    }
+    .Custom_icon{
+        color: var(--white-color);
+        font-size: 25px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        color: #FF4A57;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-top: 20px;
+        text-align: center;
+        display: inline-block;
+    }
+    .Banner__Section h1 {
+        font-size: 58px;
+    }
+    .banner__img {
+        width: 56%;
+    }
+    .Services__Box {
+        height: 530px;
+    }
+    footer .Social__icon {
+        width: 300px;
+    }
+    .Locate__Me .Content p {
+        font-size: 7px;
+    }
+
+}
+@media(max-width:1199px) and (min-width:992px){
+    .fahad__logo {
+        width: 220px;
+    }
+    .Custom_icon{
+        color: var(--white-color);
+        font-size: 25px;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        color: #FF4A57;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-top: 20px;
+        text-align: center;
+        display: inline-block;
+    }
+    .Banner__Section h1 {
+        font-size: 58px;
+    }
+    .banner__img {
+        width: 48%;
+    }
+    .height {
+        min-height: 90vh;
+    }
+    .Services__Box {
+        height: 530px;
+    }
+    footer .Social__icon {
+        width: 300px;
+    }
+}
+
+@media(max-width:1399px) and (min-width:1200px){
+   
+
+}
+ 
+@media(max-width:2560px) and (min-width:1400px){
+   
+}
+
+
+@media(max-width:531px) and (min-width:343px){
+  
+
+}
+
+
+
